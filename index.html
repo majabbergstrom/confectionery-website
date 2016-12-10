@@ -3,17 +3,19 @@
 <head>
   <meta charset="utf-8">
   <title>Confectionery website</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
-  <link href="css/grids.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Molle:400i" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Beau's Bonbons</h1>
-      <nav class="nav">
-        <ul>
+  <header class="masthead push-0 grid">
+    <h1 class="push-1-2 zetta unit xs-1 s-1 m-1 l-1-3">Beau's Bonbons</h1>
+      <nav class="nav pad-b grid">
+        <ul class="list-group push-0 list-group-inline unit xs-1 s-1 m-1 l-2-3">
           <li><a href="#products">Products</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -22,71 +24,128 @@
     </header>
   </header>
   <main>
-    <section class="banner">
-      <h2>Sweeten up someone's day</h2>
-      <a href="#products">View Products</a>
+    <section class="banner grid push">
+      <div class="banner-content text-center unit xs-1 s-1 m-1 l-1">
+        <h2>Sweeten up someone's day</h2>
+        <a class="btn btn-light" href="#products">View Products</a>
+      </div>
     </section>
-    <section id="popular">
-      <div>
-        <img src="images/gummy-worms-icon.png" alt="">
-        <h3>Gummy Worms</h3>
-        <p></p>
+    <section class="text-center cards" id="popular">
+      <div class="pad-b">
+        <div class="card">
+          <img class="icon i-64" src="images/gummy-worms-icon.png" alt="">
+          <h3>Gummy Worms</h3>
+          <p>Here's what's hot right now!</p>
+        </div>
       </div>
-      <div>
-        <img src="images/smarties-icon.png" alt="">
-        <h3>Smarties</h3>
-        <p></p>
+      <div class="pad-b">
+        <div class="card">
+          <img class="icon i-64" src="images/smarties-icon.png" alt="">
+          <h3>Smarties</h3>
+          <p>Here's what's hot right now!</p>
+        </div>
       </div>
-      <div>
-        <img src="images/hard-candies-icon.png" alt="">
-        <h3>Hard Candies</h3>
-        <p></p>
+      <div class="pad-b">
+        <div class="card">
+          <img class="icon i-64" src="images/hard-candies-icon.png" alt="">
+          <h3>Hard Candies</h3>
+          <p>Here's what's hot right now!</p>
+        </div>
       </div>
-      <div>
-        <img src="images/gummy-rings-icon.png" alt="">
-        <h3>Peach Rings</h3>
-        <p></p>
+      <div class="pad-b">
+        <div class="card">
+          <img class="icon i-64" src="images/gummy-rings-icon.png" alt="">
+          <h3>Peach Rings</h3>
+          <p>Here's what's hot right now!</p>
+        </div>
       </div>
     </section>
     <section id="about">
-      <h2>About</h2>
-      <p>Since 1869 Beau’s Bonbons has created beautiful tasty treats to style your table and dance across your taste buds. The store first opened when Beau, the original owner and creator made his first piece of candy. A chewy taffy that melts in your mouth and our most popular item available. Since then Beau’s only grew. We hired more people, created more candy, and made more people happy. We stand for making healthy treats for everyone to enjoy, whether you are young in life, or young at heart. Our standards never change, we will continue to pride our selves on natural ingredients and using the healthiest options available. We keep people happy and healthy. Enjoy a variety of our original recipes and add some sweetness to someone’s day.</p>
+      <div class="about-content">
+        <h2>About</h2>
+        <p>Since 1869 Beau’s Bonbons has created beautiful tasty treats to style your table and dance across your taste buds. The store first opened when Beau, the original owner and creator made his first piece of candy. A chewy taffy that melts in your mouth and our most popular item available. Since then Beau’s only grew. We hired more people, created more candy, and made more people happy. We stand for making healthy treats for everyone to enjoy, whether you are young in life, or young at heart. Our standards never change, we will continue to pride our selves on natural ingredients and using the healthiest options available. We keep people happy and healthy. Enjoy a variety of our original recipes and add some sweetness to someone’s day.</p>
+      </div>
     </section>
-    <section id="types">
-      <div>
-        <img src="" alt="">
-        <h3>Gummies</h3>
+    <section class="product-cards" id="types">
+      <div class="pad-b">
+        <div class="p-card">
+          <div class="embed embed-2by3">
+            <img class="embed-item" src="images/gummy-worms-small.jpg" alt="">
+          </div>
+          <h3>Gummies</h3>
+        </div>
       </div>
-      <div>
-        <img src="" alt="">
-        <h3>Hard Candies</h3>
+      <div class="pad-b">
+        <div class="p-card">
+          <div class="embed embed-2by3">
+            <img class="embed-item" src="images/colourful-candies-small.jpg" alt="">
+          </div>
+          <h3>Hard Candies</h3>
+        </div>
       </div>
-      <div>
-        <img src="" alt="">
-        <h3>Popular Brands</h3>
+      <div class="pad-b">
+        <div class="p-card">
+          <div class="embed embed-2by3">
+            <img class="embed-item" src="images/jubejubes-small.jpg" alt="">
+          </div>
+          <h3>Popular Brands</h3>
+        </div>
       </div>
-      <div>
-        <img src="" alt="">
-        <h3>Specialty</h3>
+      <div class="pad-b">
+        <div class="p-card">
+          <div class="embed embed-2by3">
+            <img class="embed-item" src="images/sprinkles-small.jpg" alt="">
+          </div>
+          <h3>Specialty</h3>
+        </div>
       </div>
     </section>
     <section id="products">
-      <div>
-        <h2>Product Info</h2>
-        <p>Beau’s Homestyle Taffy is soft and salty. An old favourite with a fresh taste! Perfect for a tasty gift or special treat. Each piece is individually wrapped to ensure the best quality and taste. Each 1 lb. bag contains approximately 70 pieces of Homestyle Taffy.</p>
-      </div>
-      <div>
-        <h2>Product Info</h2>
-        <p>Gummy peach rings is chewy and fun. A classic treat with a fruity taste! Perfect for a special treat. Each 1 lb. bag contains approximately 20 pieces of Peach rings.</p>
-      </div>
-      <div>
-        <h2>Product Info</h2>
-        <p>Salted Caramels are chewy and salty. A popular choice with a familiar taste! Perfect for a tasty gift or special treat. Each piece is individually wrapped to ensure the best quality and taste. Each 1 lb. bag contains approximately 25 pieces of Salted Caramel.</p>
-      </div>
-      <div>
-        <h2>Product Info</h2>
-        <p>Smarties are perfectly crunchy. A forever favourite with a well known flavour! Perfect for a tasty gift or special treat. Each piece is bagged to ensure the best quality and taste. Each 1 lb. bag contains approximately 80 pieces of smarties.</p>
-      </div>
+      <table>
+        <caption>Products</caption>
+        <tbody>
+          <tr>
+            <th>Lollipops</th>
+            <td>$4.99</td>
+          </tr>
+          <tr>
+            <th>Jelly Beans</th>
+            <td>$3.99</td>
+          </tr>
+          <tr>
+            <th>Rock Candy</th>
+            <td>$9.99</td>
+          </tr>
+          <tr>
+            <th>Gummy Bears</th>
+            <td>$6.99</td>
+          </tr>
+          <tr>
+            <th>Gummy Worms</th>
+            <td>$7.99</td>
+          </tr>
+          <tr>
+            <th>Taffy</th>
+            <td>$14.99</td>
+          </tr>
+          <tr>
+            <th>Bubble Gum</th>
+            <td>$1.99</td>
+          </tr>
+          <tr>
+            <th>Hard Candy</th>
+            <td>$2.99</td>
+          </tr>
+          <tr>
+            <th>Jawbreakers</th>
+            <td>$9.99</td>
+          </tr>
+          <tr>
+            <th>Chocolate</th>
+            <td>$5.69</td>
+          </tr>
+        </tbody>
+      </table>
     </section>
     <section>
       <h2></h2>
@@ -97,10 +156,13 @@
       <h2>Contact</h2>
       <p>69420 funsiville ave Ottawa Ontario</p>
       <p>613-987-6543</p>
-      <a href="#"><img src="" alt="facebook"></a>
-      <a href="#"><img src="" alt="instagram"></a>
-      <a href="#"><img src="" alt="twitter"></a>
+      <a class="icon i-32" href="#"><img src="images/facebook.svg" alt="facebook"></a>
+      <a class="icon i-32" href="#"><img src="images/instagram.svg" alt="instagram"></a>
+      <a class="icon i-32" href="#"><img src="images/twitter.svg" alt="twitter"></a>
       <form>
+        <label for="email">Enter your Email</label>
+        <input id="email" type="email" placeholder="yourname@email.com" name="email">
+        <button class="btn" type="submit">Submit</button>
       </form>
     </section>
   </main>
