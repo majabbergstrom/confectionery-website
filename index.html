@@ -8,26 +8,25 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Molle:400i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
 </head>
 <body>
-  <header class="masthead push-0 grid">
+  <header class="masthead push-0 text-center grid">
     <h1 class="push-1-2 zetta unit xs-1 s-1 m-1 l-1-3">Beau's Bonbons</h1>
-      <nav class="nav pad-b grid">
-        <ul class="list-group push-0 list-group-inline unit xs-1 s-1 m-1 l-2-3">
-          <li><a href="#products">Products</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+    <nav class="nav pad-b-1-2 unit xs-1 s-1 m-1 l-2-3">
+      <ul class="list-group push-0 list-group-inline">
+        <li class="push-r-1-2"><a href="#products">Products</a></li>
+        <li class="push-r-1-2"><a href="#about">About</a></li>
+        <li class="push-r-1-2"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
   <main>
     <section class="banner grid push">
       <div class="banner-content text-center unit xs-1 s-1 m-1 l-1">
         <h2>Sweeten up someone's day</h2>
-        <a class="btn btn-light" href="#products">View Products</a>
+        <a class="pdct-btn btn btn-light" href="#products">View Products</a>
       </div>
     </section>
     <section class="text-center cards" id="popular">
@@ -63,14 +62,14 @@
     <section id="about">
       <div class="about-content">
         <h2>About</h2>
-        <p>Since 1869 Beau’s Bonbons has created beautiful tasty treats to style your table and dance across your taste buds. The store first opened when Beau, the original owner and creator made his first piece of candy. A chewy taffy that melts in your mouth and our most popular item available. Since then Beau’s only grew. We hired more people, created more candy, and made more people happy. We stand for making healthy treats for everyone to enjoy, whether you are young in life, or young at heart. Our standards never change, we will continue to pride our selves on natural ingredients and using the healthiest options available. We keep people happy and healthy. Enjoy a variety of our original recipes and add some sweetness to someone’s day.</p>
+        <p class="about-p">Since 1869 Beau’s Bonbons has created beautiful tasty treats to style your table and dance across your taste buds. The store first opened when Beau, the original owner and creator made his first piece of candy. A chewy taffy that melts in your mouth and our most popular item available. Since then Beau’s only grew. We hired more people, created more candy, and made more people happy. We stand for making healthy treats for everyone to enjoy, whether you are young in life, or young at heart. Our standards never change, we will continue to pride our selves on natural ingredients and using the healthiest options available. We keep people happy and healthy. Enjoy a variety of our original recipes and add some sweetness to someone’s day.</p>
       </div>
     </section>
-    <section class="product-cards" id="types">
+    <section class="product-cards pad-t" id="types">
       <div class="pad-b">
         <div class="p-card">
           <div class="embed embed-2by3">
-            <img class="embed-item" src="images/gummy-worms-small.jpg" alt="">
+            <img class="p-card-img embed-item" src="images/gummy-worms-small.jpg" alt="">
           </div>
           <h3>Gummies</h3>
         </div>
@@ -78,7 +77,7 @@
       <div class="pad-b">
         <div class="p-card">
           <div class="embed embed-2by3">
-            <img class="embed-item" src="images/colourful-candies-small.jpg" alt="">
+            <img class="p-card-img embed-item" src="images/colourful-candies-small.jpg" alt="">
           </div>
           <h3>Hard Candies</h3>
         </div>
@@ -86,15 +85,7 @@
       <div class="pad-b">
         <div class="p-card">
           <div class="embed embed-2by3">
-            <img class="embed-item" src="images/jubejubes-small.jpg" alt="">
-          </div>
-          <h3>Popular Brands</h3>
-        </div>
-      </div>
-      <div class="pad-b">
-        <div class="p-card">
-          <div class="embed embed-2by3">
-            <img class="embed-item" src="images/sprinkles-small.jpg" alt="">
+            <img class="p-card-img embed-item" src="images/sprinkles-small.jpg" alt="">
           </div>
           <h3>Specialty</h3>
         </div>
@@ -102,7 +93,7 @@
     </section>
     <section id="products">
       <table>
-        <caption>Products</caption>
+        <caption class="push-1-2">Products</caption>
         <tbody>
           <tr>
             <th>Lollipops</th>
@@ -147,23 +138,22 @@
         </tbody>
       </table>
     </section>
-    <section>
-      <h2></h2>
-      <p></p>
-      <img src="" alt="">
-    </section>
     <section id="contact">
-      <h2>Contact</h2>
-      <p>69420 funsiville ave Ottawa Ontario</p>
-      <p>613-987-6543</p>
-      <a class="icon i-32" href="#"><img src="images/facebook.svg" alt="facebook"></a>
-      <a class="icon i-32" href="#"><img src="images/instagram.svg" alt="instagram"></a>
-      <a class="icon i-32" href="#"><img src="images/twitter.svg" alt="twitter"></a>
-      <form>
-        <label for="email">Enter your Email</label>
-        <input id="email" type="email" placeholder="yourname@email.com" name="email">
-        <button class="btn" type="submit">Submit</button>
-      </form>
+      <div class="contact-content">
+        <h2>Contact</h2>
+        <p>69420 funsiville ave Ottawa Ontario</p>
+        <p>613-987-6543</p>
+        <div class="social push">
+          <a class="icon i-32" href="#"><img src="images/facebook.svg" alt="facebook"></a>
+          <a class="icon i-32" href="#"><img src="images/instagram.svg" alt="instagram"></a>
+          <a class="icon i-32" href="#"><img src="images/twitter.svg" alt="twitter"></a>
+        </div>
+        <form class="push-r">
+          <label class="push-1-2" for="email">Enter your Email</label>
+          <input class="email-input push" id="email" type="email" placeholder="yourname@email.com" name="email">
+          <button class="btn btn-light" type="submit">Submit</button>
+        </form>
+      </div>
     </section>
   </main>
   <footer>
