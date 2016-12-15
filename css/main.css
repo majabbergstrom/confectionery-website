@@ -51,10 +51,10 @@ h3 {
 }
 
 #about {
-  background-image: linear-gradient(to bottom, #9298ba 70%, rgba(16, 0, 0, .4)), url("../images/sprinkles-small.jpg");
+  background-image: linear-gradient(to bottom, #9298ba 50%, rgba(16, 0, 0, .4) 80%), url("../images/candy-stars.jpg");
   background-position: center center, top center;
   background-repeat: no-repeat, no-repeat;
-  background-size: 320px auto, 500px auto;
+  background-size: 1000px auto, 1000px auto;
   margin: 0;
   padding-top: .5em;
   padding-bottom: .5em;
