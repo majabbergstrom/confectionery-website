@@ -13,8 +13,13 @@ h3 {
 }
 
 .masthead {
-  background-color: #9298ba;
+  background-color: #56bfac;
   color: #fff;
+  padding-bottom: .1em;
+}
+
+.nav {
+  padding-top: .8em;
 }
 
 .nav a {
@@ -23,7 +28,7 @@ h3 {
 }
 
 .nav a:hover {
-  color: #f2e7c4;
+  color: #d92958;
   text-decoration: underline;
 }
 
@@ -35,6 +40,11 @@ h3 {
   padding-top: 10em;
   padding-bottom: 10em;
   color: #fff;
+}
+
+.pdct-btn {
+  background-color: #fff;
+  border-color: #fff;
 }
 
 .pdct-btn:hover {
@@ -51,7 +61,7 @@ h3 {
 }
 
 #about {
-  background-image: linear-gradient(to bottom, #9298ba 50%, rgba(16, 0, 0, .4) 80%), url("../images/candy-stars.jpg");
+  background-image: linear-gradient(to bottom, #56bfac 50%, rgba(16, 0, 0, .4) 80%), url("../images/candy-stars.jpg");
   background-position: center center, top center;
   background-repeat: no-repeat, no-repeat;
   background-size: 1000px auto, 1000px auto;
@@ -86,4 +96,20 @@ td {
 
 .email-input {
   color: #000;
+}
+
+.social {
+  padding-top: 0;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .banner {
+    background-size: 1500px auto, 1500px auto;
+  }
+
+  .nav {
+    text-align: right;
+  }
+
 }

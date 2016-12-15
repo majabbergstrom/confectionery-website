@@ -12,8 +12,12 @@
   <link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
 </head>
 <body>
-  <header class="masthead push-0 text-center grid">
-    <h1 class="push-1-2 zetta unit xs-1 s-1 m-1-2 l-1-3">Beau's Bonbons</h1>
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+  <header role="banner" class="masthead push-0 island-1-4 text-center grid">
+    <h1 class="push-1-8 zetta unit xs-1 s-1 m-1-2 l-1-3">Beau's Bonbons</h1>
     <nav class="nav pad-b-1-2 unit xs-1 s-1 m-1-2 l-2-3">
       <ul class="list-group push-0 list-group-inline">
         <li class="push-r-1-2"><a href="#products">Products</a></li>
@@ -22,7 +26,7 @@
       </ul>
     </nav>
   </header>
-  <main>
+  <main role="main">
     <section class="banner grid push">
       <div class="banner-content text-center unit xs-1 s-1 m-1 l-1">
         <h2>Sweeten up someone's day</h2>
@@ -32,28 +36,28 @@
     <section class="text-center cards grid" id="popular">
       <div class="pad-b unit xs-1 s-1 m-1-2 l-1-3 gutter-1-4">
         <div class="card">
-          <img class="icon i-64" src="images/gummy-worms-icon.png" alt="">
+          <img class="icon i-64 img-flex" src="images/gummy-worms-icon.png" alt="">
           <h3>Gummy Worms</h3>
           <p>Here's what's hot right now!</p>
         </div>
       </div>
       <div class="pad-b unit xs-1 s-1 m-1-2 l-1-3 gutter-1-4">
         <div class="card">
-          <img class="icon i-64" src="images/smarties-icon.png" alt="">
+          <img class="icon i-64 img-flex" src="images/smarties-icon.png" alt="">
           <h3>Smarties</h3>
           <p>Here's what's hot right now!</p>
         </div>
       </div>
       <div class="pad-b unit xs-1 s-1 m-1-2 l-1-3 gutter-1-4">
         <div class="card">
-          <img class="icon i-64" src="images/hard-candies-icon.png" alt="">
+          <img class="icon i-64 img-flex" src="images/hard-candies-icon.png" alt="">
           <h3>Hard Candies</h3>
           <p>Here's what's hot right now!</p>
         </div>
       </div>
       <div class="pad-b unit xs-1 s-1 m-1-2 l-1-3 gutter-1-4">
         <div class="card">
-          <img class="icon i-64" src="images/gummy-rings-icon.png" alt="">
+          <img class="icon i-64 img-flex" src="images/gummy-rings-icon.png" alt="">
           <h3>Peach Rings</h3>
           <p>Here's what's hot right now!</p>
         </div>
@@ -112,19 +116,21 @@
         </tbody>
       </table>
     </section>
+  </main>
+  <footer role="contentinfo">
     <section id="contact">
       <div class="contact-content grid">
         <div class="address unit xs-1 s-1 m-1-2 l-1-3 gutter-1-2">
           <h2>Contact</h2>
           <p>69420 funsiville ave Ottawa Ontario</p>
           <p>613-987-6543</p>
-          <div class="social push">
-            <a class="icon i-32" href="#"><img src="images/facebook.svg" alt="facebook"></a>
-            <a class="icon i-32" href="#"><img src="images/instagram.svg" alt="instagram"></a>
-            <a class="icon i-32" href="#"><img src="images/twitter.svg" alt="twitter"></a>
+          <div class="social push embed embed-1by1">
+            <a class="icon i-32 embed-item" href="#"><img src="images/facebook.svg" alt="facebook"></a>
+            <a class="icon i-32 embed-item" href="#"><img src="images/instagram.svg" alt="instagram"></a>
+            <a class="icon i-32 embed-item" href="#"><img src="images/twitter.svg" alt="twitter"></a>
           </div>
         </div>
-        <div  class="form unit xs-1 s-1 m-1-2 l-1-3 gutter-1-2">
+        <div class="form unit xs-1 s-1 m-1-2 l-1-3 gutter-1-2">
           <form class="push-r">
             <label class="push-1-2" for="email">Enter your Email</label>
             <input class="email-input push" id="email" type="email" placeholder="yourname@email.com" name="email">
@@ -133,8 +139,6 @@
         </div>
       </div>
     </section>
-  </main>
-  <footer>
   </footer>
 
 </body>
