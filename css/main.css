@@ -22,22 +22,22 @@ h3 {
   padding-top: .8em;
 }
 
-.fcontent a {
-  color: #fff;
-}
-
 .nav a {
   text-decoration: none;
   color: #fff;
 }
 
-.fcontent a:hover {
-  color: #d92958;
+.fcontent a {
+  color: #fff;
 }
 
 .nav a:hover {
   color: #d92958;
   text-decoration: underline;
+}
+
+.fcontent a:hover {
+  color: #d92958;
 }
 
 .banner {
