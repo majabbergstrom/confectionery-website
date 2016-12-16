@@ -36,7 +36,7 @@ h3 {
   background-image: linear-gradient(to bottom, rgba(16, 0, 0, .5), rgba(16, 0, 0, .5)), url("../images/candy-stars.jpg");
   background-position: center, center;
   background-repeat: no-repeat, no-repeat;
-  background-size: 800px auto, 800px auto;
+  background-size: 2500px auto, 2500px auto;
   padding-top: 10em;
   padding-bottom: 10em;
   color: #fff;
@@ -64,11 +64,15 @@ table caption {
   padding: 1em;
 }
 
+.card-1 {
+  padding-bottom: .4em;
+}
+
 #about {
-  background-image: linear-gradient(to bottom, #56bfac 50%, rgba(16, 0, 0, .4) 80%), url("../images/candy-stars.jpg");
+  background-image: linear-gradient(to bottom, #56bfac 45%, rgba(16, 0, 0, .4) 70%), url("../images/candy-stars.jpg");
   background-position: center center, top center;
   background-repeat: no-repeat, no-repeat;
-  background-size: 1000px auto, 1000px auto;
+  background-size: 2500px auto, 2500px auto;
   margin: 0;
   padding-top: .5em;
   padding-bottom: .5em;
@@ -98,7 +102,7 @@ td {
   text-align: right;
 }
 
-.email-input {
+input {
   color: #000;
 }
 
@@ -106,10 +110,22 @@ td {
   padding-top: 0;
 }
 
+footer {
+  background-color: #333;
+  color: #fff;
+  margin: 0;
+}
+
+.fcontent {
+  padding: 1em;
+  padding-top: 0;
+  text-align: center;
+}
+
 @media only screen and (min-width: 60em) {
 
   .banner {
-    background-size: 1500px auto, 1500px auto;
+    background-size: 2500px auto, 2500px auto;
   }
 
   .nav {
@@ -121,7 +137,7 @@ td {
 @media only screen and (min-width: 90em) {
 
   #about {
-    background-size: 1500px auto, 1500px auto;
+    background-size: 2500px auto, 2500px auto;
   }
 
 }

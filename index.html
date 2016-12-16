@@ -35,17 +35,17 @@
     </section>
     <section class="text-center cards grid" id="popular">
       <div class="pad-b unit xs-1 s-1 m-1-3 l-1-3 gutter-1-4">
-        <div class="card">
+        <div class="card card-1">
           <img class="icon i-64 img-flex" src="images/gummy-worms-icon.png" alt="">
           <h3>Gummy Worms</h3>
-          <p>Here's what's hot right now!</p>
+          <p>Always fun</p>
         </div>
       </div>
       <div class="pad-b unit xs-1 s-1 m-1-3 l-1-3 gutter-1-4">
         <div class="card">
           <img class="icon i-64 img-flex" src="images/smarties-icon.png" alt="">
           <h3>Smarties</h3>
-          <p>Here's what's hot right now!</p>
+          <p>An old favourite for any time</p>
         </div>
       </div>
       <div class="pad-b unit xs-1 s-1 m-1-3 l-1-3 gutter-1-4">
@@ -57,12 +57,12 @@
       </div>
     </section>
     <section id="about">
-      <div class="about-content gutter-1-2">
+      <div class="about-content max-length gutter-1-2">
         <h2>About</h2>
         <p class="about-p">Since 1869 Beau’s Bonbons has created beautiful tasty treats to style your table and dance across your taste buds. The store first opened when Beau, the original owner and creator made his first piece of candy. A chewy taffy that melts in your mouth and our most popular item available. Since then Beau’s only grew. We hired more people, created more candy, and made more people happy. We stand for making healthy treats for everyone to enjoy, whether you are young in life, or young at heart. Our standards never change, we will continue to pride our selves on natural ingredients and using the healthiest options available. We keep people happy and healthy. Enjoy a variety of our original recipes and add some sweetness to someone’s day.</p>
       </div>
     </section>
-    <section class="pad-t gutter-1-4 pad-b-1-2" id="products">
+    <section class="pad-t gutter-1-4 max-length pad-b-1-2" id="products">
       <table>
         <caption class="push-1-2 bold normal">Products</caption>
         <tbody>
@@ -109,8 +109,6 @@
         </tbody>
       </table>
     </section>
-  </main>
-  <footer role="contentinfo">
     <section id="contact">
       <div class="contact-content grid">
         <div class="address unit xs-1 s-1 m-1-2 l-1-3 gutter-1-2">
@@ -124,13 +122,25 @@
         </div>
         <div class="form unit xs-1 s-1 m-1-2 l-1-3 gutter-1-2">
           <form class="push-r" method="POST" action="https://formspree.io/berg0280@algonquinlive.com">
-            <label class="push-1-2" for="email">Keep in touch with us</label>
-            <input class="email-input push" id="email" type="email" placeholder="yourname@email.com" name="email">
+            <h2 class="push-1-2">Keep in touch with us</h2>
+            <div class="push">
+              <label for="name">Name</label>
+              <input id="name" name="name">
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input class="email-input push" id="email" type="email" placeholder="yourname@email.com" name="email">
+            </div>
             <button class="btn btn-light" type="submit">Submit</button>
           </form>
         </div>
       </div>
     </section>
+  </main>
+  <footer role="contentinfo">
+    <div class="fcontent">
+      <small>Copyright © 2016 Beau’s Bonbons</small>
+    </div>
   </footer>
 
 </body>
