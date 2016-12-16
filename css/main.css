@@ -22,9 +22,17 @@ h3 {
   padding-top: .8em;
 }
 
+.fcontent a {
+  color: #fff;
+}
+
 .nav a {
   text-decoration: none;
   color: #fff;
+}
+
+.fcontent a:hover {
+  color: #d92958;
 }
 
 .nav a:hover {
@@ -124,14 +132,6 @@ footer {
 
 .flink {
   display: block;
-}
-
-.fcontent a {
-  color: #fff;
-}
-
-.fcontent a:hover {
-  color: #d92958;
 }
 
 @media only screen and (min-width: 60em) {
